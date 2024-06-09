@@ -14,7 +14,7 @@ $firestore = new FirestoreClient([
 ]);
 
 // Test connection by retrieving data from Firestore
-$documents = $firestore->collection('admins')->documents();
+$documents = $firestore->collection('ville')->documents();
 
 // Array to hold Firestore document data
 $documentDataArray = [];
